@@ -29,7 +29,7 @@ def convert_text_to_speech():
     return send_file(audio_file, as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(host="0.0.0.0" , port=5000)
 
 
 # In[ ]:
